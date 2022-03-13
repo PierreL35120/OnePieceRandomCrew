@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./Wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contain{
+    margin-left: 10px;
+    display: absolute;
+    justify-content: space-around;
+    width: 99%;
+}
+
+.item{
+    width: 24vw;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.39);
+    background-image: url(./fond.png);
+    background-size:contain;
+    background-repeat: none;
+    text-align:center;
+    margin-bottom: 5px;
+    border-radius: 15px;
+}
+
+.item img{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.item p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 130%;
+    margin-top: -10px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    text-shadow: 6px 4px 9px #7D7D7D
+    ;
+}
+
+
