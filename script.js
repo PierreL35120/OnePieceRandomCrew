@@ -10,6 +10,8 @@ window.addEventListener("load", womans, false);
 window.addEventListener("load", womanss, false);
 window.addEventListener("load", minkss, false);
 window.addEventListener("load", fishmenss, false);
+window.addEventListener("load", boats, false);
+
 
 
 
@@ -361,6 +363,40 @@ const fishy = Array(
     "./imgfishmen/Zeo.png",
 )
 
+const boaty = Array(
+    "./imgship/ArkMawim.png",
+    "./imgship/Baratie.png",
+    "./imgship/Bezan.png",
+    "./imgship/BigTop.png",
+    "./imgship/Donquixote.png",
+    "./imgship/Dreadnaught.png",
+    "./imgship/FlyingDutchman.png",
+    "./imgship/GarpShip.png",
+    "./imgship/Germa66.png",
+    "./imgship/GrudgeDolph.png",
+    "./imgship/Kuja.png",
+    "./imgship/LiberalHind.png",
+    "./imgship/LuffyGo.png",
+    "./imgship/Merry.png",
+    "./imgship/MissDuckLove.png",
+    "./imgship/MobyDick.png",
+    "./imgship/Navy.png",
+    "./imgship/NostaCastello.png",
+    "./imgship/QueenMama.png",
+    "./imgship/PieceofSpadille.png",
+    "./imgship/PolarTang.png",
+    "./imgship/RedForce.png",
+    "./imgship/RocketMan.png",
+    "./imgship/SexyFoxy.png",
+    "./imgship/Sunny.png",
+    "./imgship/Stampede.png",
+    "./imgship/SuperbShark.png",
+    "./imgship/.png",
+    "./imgship/TeachPirate.png",
+    "./imgship/ThrillerBark.png",
+    "./imgship/VictoriaPunk.png",
+    "./imgship/Zunusha.png"
+)
 function capitaines() {
     const randomCap = Math.floor(Math.random() * cap.length);
     document.getElementById("capitaine").src = cap[randomCap];
@@ -419,4 +455,9 @@ function minkss() {
 function fishmenss() {
     const randomFish = Math.floor(Math.random() * fishy.length);
     document.getElementById("fishmen").src = fishy[randomFish];
+}
+
+function boats() {
+    const randomBoat = Math.floor(Math.random() * boaty.length);
+    document.getElementById("boat").src = boaty[randomBoat];
 }
