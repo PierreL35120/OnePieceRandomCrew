@@ -132,13 +132,124 @@ body{
     height: 65%;
 }
 
-
-.item img{
-
+.contain2{
+    display: absolute;
+    justify-content: space-around;
+    width: 90%;
+    height: auto;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(20px, auto);
+    background-color: rgba(128, 128, 128, 0.75);
+    border: 1px yellow solid;
+    padding-top: 5vh;
+    padding-left: 10vw;
 }
 
-.item p{
-
+.contain2 img{
+    height: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
+.capitaineText2, .navigateurText2, .charpentierText2, .medecinText2, .Nakama2{
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+#capitaine2{
+    grid-row: 2;
+    grid-column: 1;
+}
+.capitaineText2{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.navigateurText2{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#navigateur2{
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.charpentierText2{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+#charpentier2{
+    grid-row: 2;
+    grid-column: 3;
+}
+
+.medecinText2{
+    grid-row: 1;
+    grid-column: 4;
+}
+
+#medecin2{
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.Nakama2{
+    grid-row: 3;
+    grid-column: 3;
+}
+
+#sabreur2{
+    grid-row: 4;
+    grid-column: 1;
+}
+
+#membredeux2{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+#membreun2{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+#tireur2{
+    grid-row: 4;
+    grid-column: 4;
+}
+
+#mink2{
+    grid-row: 5;
+    grid-column: 4;
+}
+
+#fishmen2{
+    grid-row: 5;
+    grid-column: 1;
+}
+
+#womanun2{
+    grid-row: 5;
+    grid-column: 2;
+}
+
+#womandeux2{
+    grid-row: 5;
+    grid-column: 3;
+}
+
+#boat2{
+    display: absolute;
+    grid-row: 2;
+    grid-column: 5;
+}

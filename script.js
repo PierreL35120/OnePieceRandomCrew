@@ -400,64 +400,77 @@ const boaty = Array(
 function capitaines() {
     const randomCap = Math.floor(Math.random() * cap.length);
     document.getElementById("capitaine").src = cap[randomCap];
+    document.getElementById("capitaine2").src = cap[randomCap];
 }
 
 function navigateurs() {
     const randomNav = Math.floor(Math.random() * nav.length);
     document.getElementById("navigateur").src = nav[randomNav];
+    document.getElementById("navigateur2").src = nav[randomNav];
 }
 
 function charpentiers() {
     const randomCharp = Math.floor(Math.random() * charp.length);
     document.getElementById("charpentier").src = charp[randomCharp];
+    document.getElementById("charpentier2").src = charp[randomCharp];
 }
 
 function medecins() {
     const randomMede = Math.floor(Math.random() * mede.length);
     document.getElementById("medecin").src = mede[randomMede];
+    document.getElementById("medecin2").src = mede[randomMede];
 }
 
 function sabreurs() {
     const randomSabre = Math.floor(Math.random() * sabre.length);
     document.getElementById("sabreur").src = sabre[randomSabre];
+    document.getElementById("sabreur2").src = sabre[randomSabre];
 }
 
 function membres() {
     const randomMembres = Math.floor(Math.random() * mem.length);
     document.getElementById("membreun").src = mem[randomMembres];
+    document.getElementById("membreun2").src = mem[randomMembres];
 }
 
 function membress() {
     const randomMembres = Math.floor(Math.random() * mem.length);
     document.getElementById("membredeux").src = mem[randomMembres];
+    document.getElementById("membredeux2").src = mem[randomMembres];
 }
 
 function tireurs() {
     const randomTir = Math.floor(Math.random() * tir.length);
     document.getElementById("tireur").src = tir[randomTir];
+    document.getElementById("tireur2").src = tir[randomTir];
 }
 
 function womans() {
     const randomWom = Math.floor(Math.random() * wom.length);
     document.getElementById("womanun").src = wom[randomWom];
+    document.getElementById("womanun2").src = wom[randomWom];
 }
 
 function womanss() {
     const randomWom = Math.floor(Math.random() * wom.length);
     document.getElementById("womandeux").src = wom[randomWom];
+    document.getElementById("womandeux2").src = wom[randomWom];
 }
 
 function minkss() {
     const randomMink = Math.floor(Math.random() * minky.length);
     document.getElementById("mink").src = minky[randomMink];
+    document.getElementById("mink2").src = minky[randomMink];
 }
 
 function fishmenss() {
     const randomFish = Math.floor(Math.random() * fishy.length);
     document.getElementById("fishmen").src = fishy[randomFish];
+    document.getElementById("fishmen2").src = fishy[randomFish];
 }
 
 function boats() {
     const randomBoat = Math.floor(Math.random() * boaty.length);
     document.getElementById("boat").src = boaty[randomBoat];
+    document.getElementById("boat2").src = boaty[randomBoat];
 }
